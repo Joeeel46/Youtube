@@ -1,0 +1,32 @@
+.header{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    z-index: 100;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(230, 230, 230);
+    border-bottom-style: solid;
+    background-color: white;
+}
+.top-right {
+    display: flex;
+    width: 270px;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-left {
+    display: flex;
+    width: 190px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+}
+.top-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

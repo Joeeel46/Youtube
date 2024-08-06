@@ -1,0 +1,128 @@
+
+.video-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+    padding-right: 20px;
+}
+.search-box{
+    width: 500px;
+    border-radius: 3px;
+    height: 55px;
+    margin-right: -1px;
+    z-index: 1;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(197, 197, 197);
+    background-color: rgb(243, 243, 243);
+    font-size: 17px;
+    padding-left: 20px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    transition: border-color 0.75s border-width 0.25s;
+}
+.search-box:hover {
+    border-color: rgb(56, 56, 56);
+    border-width: 2px;
+}
+.search-box:active {
+    border-color: rgb(230, 28, 28);
+    border-style: solid;
+    border-width: 2px;
+}
+.video-title{
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.video-author{
+    color: grey;
+    margin-bottom: 4px;
+    margin-top: 15px;
+}
+.video-author,
+.video-stats{
+    color: grey;
+}
+.thumbnail{
+    width: 100%;
+}
+.profile-picture{
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+} 
+.profile{
+    width: 45px;
+    border-radius: 25px;
+}
+.description{
+    display: inline-block;
+    width: 300px;
+}
+.thumbnail-row{
+    margin-bottom: 15px;
+    position: relative;
+}
+.video-time{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    font-family: roboto, arial;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    border:none;
+    border-radius: 2px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.search-button {
+    height: 55px;
+    width: 70px;
+    background-color: rgb(248, 248, 248);
+    border-color: rgb(197, 197, 197);
+    border-style: solid;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.mic-button {
+    margin-left: 15px;
+    background-color: rgb(247, 247, 247);
+    border: none;
+    border-radius: 35px;
+    width: 50px;
+    height: 45px;
+}
+.notification{
+    position: relative;
+}
+.notification-position{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: red;
+    color:white;
+    font-size: 13px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border: none;
+    border-radius: 50%;
+}
+.side-icons {
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-family: roboto, arial;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
